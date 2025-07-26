@@ -5,7 +5,7 @@
 #  throughout.
 # TODO 4: Create a function which returns whether a given vowel skewer is authentic.
 # TODO 5: Strings without any actual skewer "-" or letters should return False.
-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 skewer1 = "B--A--N--A--N--A--S"
 skewer2 = "A--X--E"
 skewer3 = "C-L-A-P"
