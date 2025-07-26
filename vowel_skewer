@@ -12,7 +12,7 @@ skewer3 = "C-L-A-P"
 skewer4 = "M--A---T-E-S"
 
 
-def authentic(letters):
+def is_authentic_skewer(letters):
     vowels = ["A", "E", "I", "O", "U"]
     letters2 = ""
     pattern = []
@@ -50,7 +50,7 @@ def authentic(letters):
         return True
 
 
-print(authentic(skewer1))
-print(authentic(skewer2))
-print(authentic(skewer3))
-print(authentic(skewer4))
+print(is_authentic_skewer(skewer1))
+print(is_authentic_skewer(skewer2))
+print(is_authentic_skewer(skewer3))
+print(is_authentic_skewer(skewer4))
